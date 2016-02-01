@@ -177,3 +177,13 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/mako/proprietary/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so:qcom \
 
 PRODUCT_PACKAGES := libacdbloader
+
+PRODUCT_COPY_FILES += \
+    vendor/qcom/mako/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg:qcom \
+    vendor/qcom/mako/proprietary/libDxHdcp.so:system/lib/libDxHdcp.so:qcom \
+    vendor/qcom/mako/proprietary/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00:qcom \
+    vendor/qcom/mako/proprietary/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01:qcom \
+    vendor/qcom/mako/proprietary/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02:qcom \
+    vendor/qcom/mako/proprietary/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03:qcom \
+    vendor/qcom/mako/proprietary/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt:qcom \
+
